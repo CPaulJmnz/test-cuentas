@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 
 import { useGlobalState } from '../context/GlobalState'
 import {TransactionItem} from './TransactionItem'
-import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 
 function TransactionList() {
